@@ -5,7 +5,7 @@ html {
 
 body {
  background-image: url("wave.jpg");
- background-size: 1500px;
+ background-size: cover;
  background-color: #cccccc;
  margin: 0px;
  padding: 0px;
