@@ -4,20 +4,22 @@ html {
 }
 
 a {
-  color: black;
-  font-family:Arial;
+    color: black;
+    font-family: Arial;
 }
 
 body {
- background-image: url("../wave.jpg");
- background-size: cover;
- background-color: #cccccc;
- margin: 0px;
- padding: 0px;
- min-height: 100vh;
+    background-image: url("../wave.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -25,17 +27,17 @@ body {
 nav {
     padding: 10px;
 
-    @media (min-width: 600px){
+    @media (min-width: 600px) {
         padding: 20px;
     }
 }
 
-nav.flexbox{
- ul {        
-list-style-type: none;
-display: flex;
+nav.flexbox {
+    ul {
+        list-style-type: none;
+        display: flex;
         align-items: center;
-justify-content: space-around;
+        justify-content: space-around;
     }
 
     ul li {
@@ -47,24 +49,35 @@ justify-content: space-around;
     }
 
 }
-article{
- color:white;
- font-size: 3.5em;
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 3.5em;
+    padding: 1.0em;
 }
 
-h1{
-padding:0.5em;
+h1 {
+    padding: 0.5em;
 }
 
-h2{
-padding:0.5em;
+h2 {
+    padding: 0.5em;
 }
 
-p{
- color:white;
- font-size: 0.3em;
-padding:1.0em;
+p {
+    color: white;
+    font-size: 0.3em;
+    padding: 1.0em;
 
 }
 
+.flexteam {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+}

@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "Australia",
+  "cities": [
+    {
+      "name": "Sydney,Australia",
+      "imageUrl":"Sydney.jpg",
+      "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House"
+    }
+  ]
+}
