@@ -48,3 +48,18 @@ justify-content: space-around;
     }
 
 }
+article{
+ color:white;
+ font-size: 3.5em;
+}
+
+h2{
+padding:0.5em;
+}
+
+p{
+ color:white;
+ font-size: 0.3em;
+padding:1.0em;
+
+}
